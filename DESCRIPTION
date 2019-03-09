@@ -1,0 +1,24 @@
+Package: polish
+Type: Package
+Title: Polish up your R content.
+Version: 0.3
+Date: 2019-03-09
+Authors@R: c(person("Will", "Bishop", email = "wcmbishop@gmail.com", role = c("cre", "aut")))
+Description: Polish up your R content (Shiny apps, RMarkdown, flexdashboards) 
+  using attractive templates for publishing to RStudio Connect.
+Depends:
+    R (>= 3.3.0)
+License: MIT + file LICENSE
+LazyData: true
+URL: https://www.github.com/wcmbishop/polish
+Imports:
+  glue (>= 1.1.1),
+  htmltools (>= 0.3.6),
+  magrittr (>= 1.5),
+  rmarkdown (>= 1.6),
+  shiny (>= 1.0.3)
+RoxygenNote: 6.1.1
+Suggests: 
+  knitr,
+  uuid (>= 0.1.2)
+VignetteBuilder: knitr
